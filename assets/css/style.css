@@ -1,0 +1,62 @@
+#root{
+    margin: auto;
+    text-align: center;
+}
+.launch{
+    font-size: 30px;
+    color:hsl(0, 0%, 59%);
+    margin-bottom: 5px;
+}
+.notified{
+    margin-top: 10px;
+}
+.form{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.email{
+    width: 250px;
+    padding: 10px 25px;
+    border: 1px solid hsl(0, 0%, 59%);
+    border-radius: 20px;
+}
+.btn{
+    margin-left: 7px;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+.img img{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.sm img{
+   margin: 10px; 
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width: 550px){
+    .form form{
+        display: inline-grid;
+    }
+    .btn{
+        margin-top: 7px;
+    }
+    .img img{
+        width: 90%;
+    }
+}
+@media(max-width: 750px){
+    .img img{
+        width: 80%;
+    }
